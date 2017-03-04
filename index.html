@@ -7,36 +7,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
   </head>
   <body ng-app="myApp">
-    <div class="wrapper" ng-app="reddit" ng-controller="reddits">
-        <div class="grid__item" style="overflow-x:auto;">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th>Title</th>
-                <th>Number of subscribers</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr ng-repeat="post in posts">
-                <td>{{post.data.title}}</td>
-                <td>{{post.data.subscribers}}</td>
-                <td>{{post.data.public_description}}</td>
-              </tr>
-            </tbody>
-
-                <!-- <div class="description description--grid">
-                    <h3></h3>
-                </div> -->
-          </table>
-        </div>
+    <div class="wrapper" ng-app="reddit" ng-controller="reddits" style="overflow-x:auto;">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Number of subscribers</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="post in posts">
+            <td>{{post.data.title}}</td>
+            <td>{{post.data.subscribers}}</td>
+            <td>{{post.data.public_description}}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
   </body>
-    <!-- Modules -->
-    <script src="js/app.js"></script>
 
-    <!-- Controllers -->
+    <script src="js/app.js"></script>
     <script src="js/controllers/MainController.js"></script>
   
 </html>
