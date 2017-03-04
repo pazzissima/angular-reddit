@@ -1,4 +1,4 @@
-Retrieving the subreddits by using this API - AngularJS
+Retrieving the subreddits by using Reddit API - AngularJS
 
 To see the app in browser:
 - cd into workspace
@@ -6,4 +6,7 @@ To see the app in browser:
   node web-server.js
 - Got to:
   http://localhost:8000/index.html
+
+
+Bootstrap is used to make the table responsive.
 
