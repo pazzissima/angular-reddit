@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Practicing Angular
 
 So far this is our typical workflow when making an AngularJS app:
@@ -12,3 +13,6 @@ To see the app in browser:
   node web-server.js
 - Got to:
   http://localhost:8000/index.html
+=======
+# reddit_angularJS
+>>>>>>> c1635c521af443e3201778e685461a6e9b675c36
